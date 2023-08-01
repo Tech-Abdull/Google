@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Authentication</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: red;">Netflix Sign Up</h2>
+        <br>
+        <h1>Create  Account</h1>
+        <div class="form">
+            <label for="name">Name*</label>
+            <br>
+            <input type="text" name="" id="loginName" required>
+            <br>
+            <label for="Email">Email Address*</label>
+            <br>
+            <input type="email" name="" id="RegEmail" required>
+            <br>
+            <label for="password">Password*</label>
+            <br>
+            <input type="text" name="" id="RegPassword" required>
+            <br>
+            <p>Password must be atleast 6 Characters</p>
+<br>
+            <button class="sign" id="SignBtn">Sign Up</button>
+            <br> <br>
+            <span>Or</span>
+            <br><br>
+            <button class="google" id="GoogleBtn"><img width="44" height="48" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>Sign Up  with Google</button>
+
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+  <script src="Javascript2/config.js"></script>
+  <script src="Javascript2/Reg.js"></script>
+</body>
+</html>

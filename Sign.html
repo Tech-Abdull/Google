@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Authentication</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Concept Cars</h2>
+        <br>
+        <h1>  Log In</h1>
+        <div class="form">
+            
+            <label for="Email">Email Address</label>
+            <br>
+            <input type="email" name="" id="SignEmail" required>
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="text" name="" id="SignPassword" required>
+            <br>
+            <p>Password must be atleast 6 Characters</p>
+<br>
+            <button class="sign" id="sign">Continue</button>
+            <br> <br>
+            <span>Or</span>
+            <br><br>
+            <button class="google"><img width="44" height="48" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>Sign Up  with Google</button>
+
+        </div>
+        <br>
+        <p style="font-weight: bold;">Dont have an account?<a href="Register.html">Create Account </a></p>
+        <br>
+
+        <a href="login.html" style="font-weight: bold;">Forgot password?</a>
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+  <script src="Javascript/config.js"></script>
+  <script src="Javascript/sign.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    background-color: #000000c2;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 5%;
+    height: 490px;
+    color: #fff;
+}
+.container label{
+    margin-right: 55%;
+}
+.container input{
+    width: 70%;
+    padding: 10px;
+}
+.container .sign{
+    width: 60%;
+    padding: 10px;
+    font-weight: 600;
+    color: navy;
+    border: 3px solid #fff;
+
+}
+.container .google{
+    width: 75%;
+    color: #fff;
+    font-weight: 600;
+    background-color: #1876f2;
+    border: 3px solid #fff;
+}
+.container .google img{
+    margin-right: 25%;
+}
